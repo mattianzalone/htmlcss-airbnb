@@ -7,4 +7,51 @@
 .roma, .copenaghen, .tokyo{
     width: 100vw;
     height: 100vh;
+    margin: 0 auto;
+    border: 8px solid white;
+    position: relative;
+}
+
+.roma{
+    /* background-color: red; */
+    background-image: url(https://images.pexels.com/photos/1797161/pexels-photo-1797161.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlyne{
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(5, 0, 0, 0.4);
+}
+
+
+
+.titolo{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.copenaghen{
+    background-image:url(https://media.istockphoto.com/photos/copenhagen-denmark-at-nyhavn-canal-picture-id587892190) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tokyo{
+    background-image:url(https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
